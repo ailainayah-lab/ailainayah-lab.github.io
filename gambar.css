@@ -1,0 +1,83 @@
+/* ==========================================
+   IMAGE & BACKGROUND
+   ========================================== */
+
+
+/* BACKGROUND IMAGE */
+
+.hero {
+
+    background-image:
+        url("pola.svg");
+
+    background-repeat:
+        repeat;
+
+    background-position:
+        center top;
+
+    background-attachment:
+        scroll;
+}
+
+
+/* IMAGE SIZE */
+
+.photo-frame img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* IMAGE BORDER */
+
+.photo-frame img {
+
+    border:
+        2px solid #e57aad;
+}
+
+
+/* IMAGE TRANSPARENCY */
+
+.photo-frame img,
+.about-image img {
+
+    opacity: .82;
+}
+
+
+/* IMAGE HOVER */
+
+.photo-frame img:hover,
+.about-image img:hover {
+
+    opacity: 1;
+}
+
+
+/* TRANSPARENT BOX */
+
+.photo-label {
+
+    background-color:
+        rgba(255,255,255,.82);
+}
+
+
+/* DECORATION */
+
+.circle.pink {
+
+    opacity: .45;
+}
+
+
+.circle.blue {
+
+    opacity: .55;
+}
