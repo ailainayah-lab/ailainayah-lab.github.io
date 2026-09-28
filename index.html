@@ -1,392 +1,179 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aila Inayah | Web Developer Journey</title>
-
-    <!-- CSS EXTERNAL -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navigasi.css">
     <link rel="stylesheet" href="gambar.css">
-
-    <!-- CSS INTERNAL -->
     <style>
-
         .highlight {
             color: #d85d9f;
             font-weight: bold;
         }
-
         #about-note {
             border-left: 4px solid #d85d9f;
             padding-left: 15px;
         }
-
+        #greeting {
+            color: #d85d9f;
+            font-weight: bold;
+        }
+        .dropdown-content {
+            display: none;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
     </style>
-
 </head>
-
-
 <body>
-
-
-<!-- ==================================================
-     NAVIGATION
-     ================================================== -->
-
+<!-- ================= NAVIGASI ================= -->
 <header class="header">
-
     <div class="container">
-
-        <a href="#home" class="logo">
-            AI
-        </a>
-
-
+        <a href="#home" class="logo">AI</a>
         <nav>
-
             <ul id="menu">
-
                 <li>
-                    <a href="#home">
-                        Home
-                    </a>
+                    <a href="#home">Home</a>
                 </li>
-
-
                 <li>
-                    <a href="#about">
-                        Tentang Saya
-                    </a>
+                    <a href="#about">Tentang Saya</a>
                 </li>
-
-
                 <li class="dropdown">
-
-                    <a href="#experience">
-                        Experience ▾
-                    </a>
-
-
+                    <a href="#experience">Experience ▾</a>
                     <ul class="dropdown-content">
-
-                        <li>
-                            <a href="#skills">
-                                Skills
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#projects">
-                                Projects
-                            </a>
-                        </li>
-
+                        <li><a href="#education">Pendidikan</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
                     </ul>
-
                 </li>
-
-
                 <li>
-                    <a href="#thanks">
-                        Terimakasih
-                    </a>
+                    <a href="#thanks">Terimakasih</a>
                 </li>
-
             </ul>
-
         </nav>
-
         <div class="clear"></div>
-
     </div>
-
 </header>
-
-
-
-<!-- ==================================================
-     HOME
-     ================================================== -->
-
+<!-- ================= HOME ================= -->
 <section id="home" class="hero">
-
     <div class="container">
-
         <div class="hero-content">
-
-
-            <!-- TEXT -->
-
             <div class="hero-text">
-
-                <p class="mini-title">
-                    HELLO, I'M
-                </p>
-
-
-                <h1>
-                    Aila
-                    <span>Inayah.</span>
-                </h1>
-
-
+                <p id="greeting"></p>
+                <p class="mini-title">HELLO, I'M</p>
+                <h2>
+                    Aila <span>Inayah.</span>
+                </h2
+                >
                 <h2>
                     Computer Engineering Student
                     <br>
                     & Web Development Learner.
                 </h2>
-
-
                 <p class="intro">
-
                     Selamat datang di website personal saya.
                     Di sini saya membagikan sedikit tentang
                     diri saya, proses belajar pemrograman web,
                     serta beberapa pengalaman coding yang
                     pernah saya coba.
-
                 </p>
-
-
                 <p id="about-note">
-
-                    <span class="highlight">
-                        Learning by doing.
-                    </span>
-
+                    <span class="highlight">Learning by doing.</span>
                     Karena menurut saya, coding bukan hanya
                     tentang menulis kode, tetapi juga tentang
                     mencoba, menemukan kesalahan, dan terus
                     belajar memperbaikinya.
-
                 </p>
-
-
                 <div class="hero-buttons">
-
-                    <a href="#about" class="button">
-                        Tentang Saya
-                    </a>
-
-                    <a href="#experience"
-                       class="button-outline">
+                    <a href="#about" class="button">Tentang Saya</a>
+                    <a href="#experience" class="button-outline">
                         Lihat Experience
                     </a>
-
                 </div>
-
             </div>
-
-
-
-            <!-- PHOTO -->
-
             <div class="hero-photo">
-
                 <div class="circle pink"></div>
-
                 <div class="circle blue"></div>
-
-
                 <div class="photo-frame">
-
-                    <img
-                        src="fotoila.jpg.jpeg"
-                        alt="Foto Aila Inayah"
-                    >
-
-
+                    <img src="fotoila.jpg.jpeg"
+                         alt="Foto Aila Inayah">
                     <div class="photo-label">
-
-                        <span>
-                            ✦
-                        </span>
-
+                        <span>✦</span>
                         <div>
-
-                            <b>
-                                Aila Inayah
-                            </b>
-
-                            <small>
-                                Web Development Journey
-                            </small>
-
+                            <b>Aila Inayah</b>
+                            <small>Web Development Journey</small>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
-
             <div class="clear"></div>
-
         </div>
-
-
-
-        <!-- QUICK INFO -->
-
         <div class="quick-info">
-
-
             <div class="info-card">
-
-                <span>
-                    01
-                </span>
-
+                <span>01</span>
                 <div>
-
-                    <small>
-                        FIELD
-                    </small>
-
-                    <h3>
-                        Computer Engineering
-                    </h3>
-
+                    <small>FIELD</small>
+                    <h3>Computer Engineering</h3>
                 </div>
-
             </div>
-
-
             <div class="info-card">
-
-                <span>
-                    02
-                </span>
-
+                <span>02</span>
                 <div>
-
-                    <small>
-                        INTEREST
-                    </small>
-
-                    <h3>
-                        Web Development
-                    </h3>
-
+                    <small>INTEREST</small>
+                    <h3>Web Development</h3>
                 </div>
-
             </div>
-
-
             <div class="info-card">
-
-                <span>
-                    03
-                </span>
-
+                <span>03</span>
                 <div>
-
-                    <small>
-                        CURRENT GOAL
-                    </small>
-
-                    <h3>
-                        Keep Learning
-                    </h3>
-
+                    <small>CURRENT GOAL</small>
+                    <h3>Keep Learning</h3>
                 </div>
-
             </div>
-
-
             <div class="clear"></div>
-
         </div>
-
     </div>
-
 </section>
-
-
-
-<!-- ==================================================
-     TENTANG SAYA
-     ================================================== -->
-
+<!-- ================= TENTANG SAYA ================= -->
 <section id="about" class="about section">
-
     <div class="container">
-
-
         <div class="section-title">
-
-            <p>
-                GET TO KNOW ME
-            </p>
-
-            <h2>
-                Tentang Saya
-            </h2>
-
-            <span>
-                Sedikit cerita tentang saya.
-            </span>
-
+            <p>GET TO KNOW ME</p>
+            <h2>Tentang Saya</h2>
+            <span>Sedikit cerita tentang saya.</span>
         </div>
-
-
-
-        <!-- TWO COLUMN -->
-
         <div class="about-content">
-
-
             <div class="about-image">
-
-                <img
-                    src="fotoila.jpg.jpeg"
-                    alt="Aila Inayah"
-                >
-
+                <img src="fotoila.jpg.jpeg"
+                     alt="Aila Inayah">
             </div>
-
-
-
             <div class="about-description">
-
                 <span class="section-number">
                     01 / ABOUT
                 </span>
-
-
                 <h3>
                     Belajar, mencoba,
                     dan berkembang.
                 </h3>
-
-
                 <p>
-
                     Saya <strong>Aila Inayah</strong>,
                     seorang mahasiswa Teknik Komputer
                     yang sedang mengembangkan kemampuan
                     di bidang teknologi, khususnya
-                    pemrograman web. Saat ini saya sedang
-                    mempelajari bagaimana sebuah website
-                    dibangun mulai dari struktur HTML,
-                    tampilan menggunakan CSS, hingga
-                    penerapan navigasi dan layout agar
-                    sebuah halaman web menjadi lebih
-                    menarik dan mudah digunakan.
-
+                    pemrograman web.
                 </p>
-
-
                 <p>
-
+                    Saat ini saya sedang mempelajari bagaimana
+                    sebuah website dibangun mulai dari struktur
+                    HTML, tampilan menggunakan CSS, hingga
+                    penerapan navigasi dan layout agar sebuah
+                    halaman web menjadi lebih menarik dan mudah
+                    digunakan.
+                </p>
+                <p>
                     Dalam proses belajar, saya tidak hanya
                     mencoba memahami teori, tetapi juga
                     menerapkannya melalui berbagai latihan
@@ -394,741 +181,367 @@
                     setiap error yang muncul merupakan
                     bagian dari proses untuk memahami
                     bagaimana kode bekerja.
-
                 </p>
-
-
                 <p>
-
                     Saya masih terus belajar dan mencoba
                     hal-hal baru dalam pemrograman web.
                     Website ini menjadi salah satu bentuk
                     kecil dari perjalanan saya dalam
                     mengenal dunia coding.
-
                 </p>
-
-
-
-                <!-- BIODATA -->
-
                 <div class="biodata">
-
                     <div>
-
-                        <small>
-                            NAMA
-                        </small>
-
-                        <strong>
-                            Aila Inayah
-                        </strong>
-
+                        <small>NAMA</small>
+                        <strong>Aila Inayah</strong>
                     </div>
-
-
                     <div>
-
-                        <small>
-                            JURUSAN
-                        </small>
-
-                        <strong>
-                            Teknik Komputer
-                        </strong>
-
+                        <small>JURUSAN</small>
+                        <strong>Teknik Komputer</strong>
                     </div>
-
-
                     <div>
-
-                        <small>
-                            MATA KULIAH
-                        </small>
-
-                        <strong>
-                            Pemrograman Web
-                        </strong>
-
+                        <small>MATA KULIAH</small>
+                        <strong>Pemrograman Web</strong>
                     </div>
-
                 </div>
-
             </div>
-
-
             <div class="clear"></div>
-
         </div>
-
-
-
-        <!-- MATERI YANG DIPELAJARI -->
-
         <div class="learning">
-
             <div class="learning-heading">
-
-                <span>
-                    02
-                </span>
-
+                <span>02</span>
                 <div>
-
-                    <small>
-                        CURRENT LEARNING
-                    </small>
-
-                    <h3>
-                        Materi yang sedang dipelajari
-                    </h3>
-
+                    <small>CURRENT LEARNING</small>
+                    <h3>Materi yang sedang dipelajari</h3>
                 </div>
-
             </div>
-
-
-
             <div class="learning-list">
-
-
                 <div class="learning-item">
-
-                    <div class="number">
-                        01
-                    </div>
-
+                    <div class="number">01</div>
                     <div>
-
-                        <h4>
-                            HTML
-                        </h4>
-
+                        <h4>HTML</h4>
                         <p>
                             Mempelajari struktur dan
                             elemen dasar halaman web.
                         </p>
-
                     </div>
-
                 </div>
-
-
-
                 <div class="learning-item">
-
-                    <div class="number">
-                        02
-                    </div>
-
+                    <div class="number">02</div>
                     <div>
-
-                        <h4>
-                            CSS
-                        </h4>
-
+                        <h4>CSS</h4>
                         <p>
                             Mengatur tampilan, warna,
                             layout, gambar, dan navigasi.
                         </p>
-
                     </div>
-
                 </div>
-
-
-
                 <div class="learning-item">
-
-                    <div class="number">
-                        03
-                    </div>
-
+                    <div class="number">03</div>
                     <div>
-
-                        <h4>
-                            Web Layout
-                        </h4>
-
+                        <h4>Web Layout</h4>
                         <p>
                             Mempelajari penyusunan elemen
                             menggunakan layout dan kolom.
                         </p>
-
                     </div>
-
                 </div>
-
-
-
                 <div class="learning-item">
-
-                    <div class="number">
-                        04
-                    </div>
-
+                    <div class="number">04</div>
                     <div>
-
-                        <h4>
-                            Navigation
-                        </h4>
-
+                        <h4>Navigation</h4>
                         <p>
                             Membuat navbar, hover,
                             dan dropdown menu.
                         </p>
-
                     </div>
-
                 </div>
-
-
             </div>
-
         </div>
-
     </div>
-
 </section>
-
-
-
-<!-- ==================================================
-     EXPERIENCE
-     ================================================== -->
-
+<!-- ================= EXPERIENCE ================= -->
 <section id="experience" class="experience section">
-
     <div class="container">
-
-
         <div class="section-title">
-
-            <p>
-                MY CODING JOURNEY
-            </p>
-
-            <h2>
-                Experience
-            </h2>
-
+            <p>MY CODING JOURNEY</p>
+            <h2>Experience</h2>
             <span>
                 Beberapa hal yang sudah saya coba
                 dalam proses belajar coding.
             </span>
-
         </div>
-
-
-
-        <!-- EXPERIENCE CARDS -->
-
-        <div class="experience-grid">
-
-
-            <article class="experience-card">
-
-                <div class="card-top">
-
-                    <span>
-                        01
-                    </span>
-
-                    <div class="code-icon">
-                        &lt;/&gt;
-                    </div>
-
-                </div>
-
-
+        <!-- PENDIDIKAN -->
+        <div id="education" class="skills-section">
+            <div class="skills-text">
+                <span class="section-number">
+                    01 / EDUCATION
+                </span>
                 <h3>
-                    HTML Website
+                    Perjalanan Pendidikan
                 </h3>
-
-
                 <p>
-
+                    Mempelajari dasar-dasar teknologi
+                    komputer, pemrograman, website,
+                    serta berbagai materi yang berkaitan
+                    dengan sistem komputer.
+                </p>
+            </div>
+            <div class="skill-bars">
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>Teknik Komputer</span>
+                        <span>SEKARANG</span>
+                    </div>
+                    <div class="bar">
+                        <div class="progress html"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>Praktikum & Latihan</span>
+                        <span>LEARNING</span>
+                    </div>
+                    <div class="bar">
+                        <div class="progress css"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!-- EXPERIENCE CARDS -->
+        <div class="experience-grid">
+            <article class="experience-card">
+                <div class="card-top">
+                    <span>01</span>
+                    <div class="code-icon">&lt;/&gt;</div>
+                </div>
+                <h3>HTML Website</h3>
+                <p>
                     Mencoba membuat halaman website
                     menggunakan struktur HTML seperti
                     heading, paragraph, link, image,
                     list, dan berbagai elemen lainnya.
-
                 </p>
-
-
                 <div class="tags">
-
-                    <span>
-                        HTML
-                    </span>
-
-                    <span>
-                        Structure
-                    </span>
-
+                    <span>HTML</span>
+                    <span>Structure</span>
                 </div>
-
             </article>
-
-
-
             <article class="experience-card">
-
                 <div class="card-top">
-
-                    <span>
-                        02
-                    </span>
-
-                    <div class="code-icon">
-                        #
-                    </div>
-
+                    <span>02</span>
+                    <div class="code-icon">#</div>
                 </div>
-
-
-                <h3>
-                    CSS Styling
-                </h3>
-
-
+                <h3>CSS Styling</h3>
                 <p>
-
                     Menerapkan CSS untuk mengubah
                     tampilan website melalui warna,
                     font, background, border, ukuran
                     gambar, dan berbagai pengaturan
                     visual lainnya.
-
                 </p>
-
-
                 <div class="tags">
-
-                    <span>
-                        CSS
-                    </span>
-
-                    <span>
-                        Styling
-                    </span>
-
+                    <span>CSS</span>
+                    <span>Styling</span>
                 </div>
-
             </article>
-
-
-
             <article class="experience-card">
-
                 <div class="card-top">
-
-                    <span>
-                        03
-                    </span>
-
-                    <div class="code-icon">
-                        { }
-                    </div>
-
+                    <span>03</span>
+                    <div class="code-icon">{ }</div>
                 </div>
-
-
-                <h3>
-                    Web Layout
-                </h3>
-
-
+                <h3>Web Layout</h3>
                 <p>
-
                     Mencoba menyusun elemen website
                     menggunakan beberapa bagian layout,
                     termasuk pembagian kolom agar
                     tampilan website lebih terstruktur.
-
                 </p>
-
-
                 <div class="tags">
-
-                    <span>
-                        Layout
-                    </span>
-
-                    <span>
-                        Float
-                    </span>
-
+                    <span>Layout</span>
+                    <span>Float</span>
                 </div>
-
             </article>
-
-
-
             <article class="experience-card">
-
                 <div class="card-top">
-
-                    <span>
-                        04
-                    </span>
-
-                    <div class="code-icon">
-                        →
-                    </div>
-
+                    <span>04</span>
+                    <div class="code-icon">→</div>
                 </div>
-
-
-                <h3>
-                    Navigation
-                </h3>
-
-
+                <h3>Navigation</h3>
                 <p>
-
                     Membuat navigasi horizontal,
                     efek hover, rounded menu,
                     dropdown, dan transition
                     untuk memberikan interaksi
                     pada halaman web.
-
                 </p>
-
-
                 <div class="tags">
-
-                    <span>
-                        Navbar
-                    </span>
-
-                    <span>
-                        Dropdown
-                    </span>
-
+                    <span>Navbar</span>
+                    <span>Dropdown</span>
                 </div>
-
             </article>
-
-
             <div class="clear"></div>
-
         </div>
-
-
-
-        <!-- SKILLS -->
-
-        <div id="skills" class="skills-section">
-
-
-            <div class="skills-text">
-
-                <span class="section-number">
-                    03 / SKILLS
-                </span>
-
-                <h3>
-                    Tools & materi
-                    yang sedang saya pelajari.
-                </h3>
-
-                <p>
-
-                    Kemampuan saya masih terus berkembang.
-                    Beberapa teknologi yang saat ini
-                    saya gunakan dalam proses pembelajaran
-                    adalah:
-
-                </p>
-
-            </div>
-
-
-
-            <div class="skill-bars">
-
-
-                <div class="skill">
-
-                    <div class="skill-name">
-
-                        <span>
-                            HTML
-                        </span>
-
-                        <span>
-                            Learning
-                        </span>
-
-                    </div>
-
-                    <div class="bar">
-
-                        <div class="progress html">
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-                <div class="skill">
-
-                    <div class="skill-name">
-
-                        <span>
-                            CSS
-                        </span>
-
-                        <span>
-                            Learning
-                        </span>
-
-                    </div>
-
-                    <div class="bar">
-
-                        <div class="progress css">
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-                <div class="skill">
-
-                    <div class="skill-name">
-
-                        <span>
-                            Web Layout
-                        </span>
-
-                        <span>
-                            Learning
-                        </span>
-
-                    </div>
-
-                    <div class="bar">
-
-                        <div class="progress layout">
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-            </div>
-
-
-            <div class="clear"></div>
-
-        </div>
-
-
-
         <!-- PROJECT -->
-
         <div id="projects" class="project-box">
-
-
             <div>
-
-                <span>
-                    CURRENT PROJECT
-                </span>
-
+                <span>CURRENT PROJECT</span>
                 <h3>
                     Personal Web Portfolio
                 </h3>
-
             </div>
-
-
             <p>
-
                 Website ini merupakan salah satu
                 project latihan saya untuk menerapkan
                 berbagai materi HTML dan CSS yang
                 telah dipelajari.
-
             </p>
-
-
         </div>
-
+        <!-- SKILLS -->
+        <div id="skills" class="skills-section">
+            <div class="skills-text">
+                <span class="section-number">
+                    03 / SKILLS
+                </span>
+                <h3>
+                    Tools & materi
+                    yang sedang saya pelajari.
+                </h3>
+                <p>
+                    Kemampuan saya masih terus berkembang.
+                    Beberapa teknologi yang saat ini
+                    saya gunakan dalam proses pembelajaran
+                    adalah:
+                </p>
+            </div>
+            <div class="skill-bars">
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>HTML</span>
+                        <span>Learning</span>
+                    </div>
+                    <div class="bar">
+                        <div class="progress html"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>CSS</span>
+                        <span>Learning</span>
+                    </div>
+                    <div class="bar">
+                        <div class="progress css"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">
+                        <span>Web Layout</span>
+                        <span>Learning</span>
+                    </div>
+                    <div class="bar">
+                        <div class="progress layout"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
     </div>
-
 </section>
-
-
-
-<!-- ==================================================
-     TERIMAKASIH + CONTACT
-     ================================================== -->
-
+<!-- ================= TERIMAKASIH ================= -->
 <section id="thanks" class="thanks">
-
     <div class="container">
-
-
         <div class="thanks-content">
-
-
             <div class="thanks-icon">
                 ♡
             </div>
-
-
             <p class="mini-title">
                 THANK YOU FOR VISITING
             </p>
-
-
             <h2>
                 Terima kasih sudah
                 <span>berkunjung.</span>
             </h2>
-
-
             <p class="thanks-text">
-
                 Terima kasih telah meluangkan waktu
                 untuk melihat sedikit perjalanan saya
                 dalam belajar pemrograman web.
-
                 <br><br>
-
                 Semoga perjalanan kecil ini menjadi
                 langkah awal untuk terus belajar,
                 mencoba, dan berkembang.
-
             </p>
-
-
-            <!-- CONTACT -->
-
             <div class="contact">
-
-
                 <div class="contact-item">
-
-                    <span>
-                        @
-                    </span>
-
+                    <span>@</span>
                     <div>
-
-                        <small>
-                            EMAIL
-                        </small>
-
-                        <a href="mailto:emailkamu@gmail.com">
+                        <small>EMAIL</small>
+                        <a href="mailto:ailainayah@gmail.com">
                             ailainayah@gmail.com
                         </a>
-
                     </div>
-
                 </div>
-
-
-
                 <div class="contact-item">
-
-                    <span>
-                        WA
-                    </span>
-
+                    <span>WA</span>
                     <div>
-
-                        <small>
-                            WHATSAPP
-                        </small>
-
-                        <a href="https://wa.me/628xxxxxxxxxx">
+                        <small>WHATSAPP</small>
+                        <a href="https://wa.me/6285289370347">
                             085289370347
                         </a>
-
                     </div>
-
                 </div>
-
-
-
                 <div class="contact-item">
-
-                    <span>
-                        IG
-                    </span>
-
+                    <span>IG</span>
                     <div>
-
-                        <small>
-                            INSTAGRAM
-                        </small>
-
-                        <a href="https://instagram.com/usernamekamu">
+                        <small>INSTAGRAM</small>
+                        <a href="https://instagram.com/aailainayah">
                             @aailainayah
                         </a>
-
                     </div>
-
                 </div>
-
-
             </div>
-
-
-            <!-- INLINE CSS -->
-
-            <a
-                href="#home"
-                class="back-top"
-                style="letter-spacing: 2px;"
-            >
+            <a href="#home"
+               class="back-top"
+               style="letter-spacing: 2px;">
                 BACK TO TOP ↑
             </a>
-
-
         </div>
-
     </div>
-
 </section>
-
-
-
-<!-- ==================================================
-     FOOTER
-     ================================================== -->
-
+<!-- ================= FOOTER ================= -->
 <footer>
-
     <div class="container">
-
         <div class="footer-logo">
             AI
         </div>
-
-        <p>
-            Aila Inayah
-        </p>
-
+        <p>Aila Inayah</p>
         <span>
             Computer Engineering · Web Development
         </span>
-
+        <small>
+            © <span id="year"></span> Aila Inayah
+        </small>
     </div>
-
 </footer>
-
-
+<!-- ================= JAVASCRIPT ================= -->
+<script>
+    // 1. SAPAAN OTOMATIS BERDASARKAN WAKTU
+    const hour = new Date().getHours();
+    const greeting = document.getElementById("greeting");
+    if (hour >= 5 && hour < 12) {
+        greeting.textContent = "Selamat pagi!";
+    } 
+    else if (hour >= 12 && hour < 15) {
+        greeting.textContent = "Selamat siang!";
+    } 
+    else if (hour >= 15 && hour < 18) {
+        greeting.textContent = "Selamat sore!";
+    } 
+    else {
+        greeting.textContent = "Selamat malam!";
+    }
+    // 2. TAHUN FOOTER OTOMATIS
+    document.getElementById("year").textContent =
+        new Date().getFullYear();
+</script>
 </body>
-
 </html>
